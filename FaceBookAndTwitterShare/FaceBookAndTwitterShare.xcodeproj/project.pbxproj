@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		442520182040510D000FA44C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 442520172040510D000FA44C /* AppDelegate.m */; };
+		442520202040510D000FA44C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4425201F2040510D000FA44C /* Assets.xcassets */; };
+		442520232040510D000FA44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442520212040510D000FA44C /* LaunchScreen.storyboard */; };
+		442520262040510D000FA44C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442520252040510D000FA44C /* main.m */; };
+		442520302040510D000FA44C /* FaceBookAndTwitterShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425202F2040510D000FA44C /* FaceBookAndTwitterShareUITests.m */; };
+		4425205720405564000FA44C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425205620405564000FA44C /* BaseModel.m */; };
+		4425205A204060DC000FA44C /* AppDelegate+SharePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 44252059204060DC000FA44C /* AppDelegate+SharePlatform.m */; };
+		448E0F652045513300707118 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 448E0F642045513300707118 /* UIColor+Util.m */; };
+		448E0F68204552C200707118 /* UIView+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 448E0F67204552C200707118 /* UIView+MJ.m */; };
+		44E6AA6C2040FE8F00F6C095 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E6AA6B2040FE8F00F6C095 /* BaseView.m */; };
+		44E6AA7020410DE500F6C095 /* ShareDefaultPlatForms.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425204320405541000FA44C /* ShareDefaultPlatForms.m */; };
+		44E6AA7120410DF000F6C095 /* ShareHouseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425204620405541000FA44C /* ShareHouseManager.m */; };
+		44E6AA7220410DF500F6C095 /* ShareManagerImprovePlateForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425204820405541000FA44C /* ShareManagerImprovePlateForm.m */; };
+		44E6AA7320410DFA00F6C095 /* SharePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425204B20405541000FA44C /* SharePopView.m */; };
+		44E6AA7420410E0000F6C095 /* TWTwitterShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425204D20405541000FA44C /* TWTwitterShareViewController.m */; };
+		44E6AA7520410E0700F6C095 /* SharePicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425205120405541000FA44C /* SharePicModel.m */; };
+		44E6AA7620410E1000F6C095 /* ShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425205420405541000FA44C /* ShareTool.m */; };
+		44E6AA7920410E5600F6C095 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E6AA7820410E5600F6C095 /* BaseViewController.m */; };
+		44E6AA7C20410E8400F6C095 /* TestShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E6AA7B20410E8400F6C095 /* TestShareViewController.m */; };
+		44E6AA882041394600F6C095 /* ShareListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E6AA862041394500F6C095 /* ShareListModel.m */; };
+		D9B5782FC1D4CE1F1B03244A /* Pods_FaceBookAndTwitterShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58233E9D802E5D1DDB36DAB0 /* Pods_FaceBookAndTwitterShare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4425202C2040510D000FA44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4425200B2040510D000FA44C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 442520122040510D000FA44C;
+			remoteInfo = FaceBookAndTwitterShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		442520132040510D000FA44C /* FaceBookAndTwitterShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookAndTwitterShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		442520162040510D000FA44C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		442520172040510D000FA44C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4425201F2040510D000FA44C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		442520222040510D000FA44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		442520242040510D000FA44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442520252040510D000FA44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4425202B2040510D000FA44C /* FaceBookAndTwitterShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookAndTwitterShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4425202F2040510D000FA44C /* FaceBookAndTwitterShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookAndTwitterShareUITests.m; sourceTree = "<group>"; };
+		442520312040510D000FA44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4425204220405541000FA44C /* ShareDefaultPlatForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareDefaultPlatForms.h; sourceTree = "<group>"; };
+		4425204320405541000FA44C /* ShareDefaultPlatForms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareDefaultPlatForms.m; sourceTree = "<group>"; };
+		4425204520405541000FA44C /* ShareHouseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareHouseManager.h; sourceTree = "<group>"; };
+		4425204620405541000FA44C /* ShareHouseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareHouseManager.m; sourceTree = "<group>"; };
+		4425204720405541000FA44C /* ShareManagerImprovePlateForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareManagerImprovePlateForm.h; sourceTree = "<group>"; };
+		4425204820405541000FA44C /* ShareManagerImprovePlateForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareManagerImprovePlateForm.m; sourceTree = "<group>"; };
+		4425204A20405541000FA44C /* SharePopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharePopView.h; sourceTree = "<group>"; };
+		4425204B20405541000FA44C /* SharePopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharePopView.m; sourceTree = "<group>"; };
+		4425204C20405541000FA44C /* TWTwitterShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTwitterShareViewController.h; sourceTree = "<group>"; };
+		4425204D20405541000FA44C /* TWTwitterShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTwitterShareViewController.m; sourceTree = "<group>"; };
+		4425204E20405541000FA44C /* ShareHousePlateFormType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareHousePlateFormType.h; sourceTree = "<group>"; };
+		4425205020405541000FA44C /* SharePicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharePicModel.h; sourceTree = "<group>"; };
+		4425205120405541000FA44C /* SharePicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharePicModel.m; sourceTree = "<group>"; };
+		4425205320405541000FA44C /* ShareTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareTool.h; sourceTree = "<group>"; };
+		4425205420405541000FA44C /* ShareTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareTool.m; sourceTree = "<group>"; };
+		4425205520405564000FA44C /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		4425205620405564000FA44C /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		44252058204060DC000FA44C /* AppDelegate+SharePlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+SharePlatform.h"; sourceTree = "<group>"; };
+		44252059204060DC000FA44C /* AppDelegate+SharePlatform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+SharePlatform.m"; sourceTree = "<group>"; };
+		448E0F632045513300707118 /* UIColor+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		448E0F642045513300707118 /* UIColor+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		448E0F66204552C200707118 /* UIView+MJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MJ.h"; sourceTree = "<group>"; };
+		448E0F67204552C200707118 /* UIView+MJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJ.m"; sourceTree = "<group>"; };
+		44E6AA6A2040FE8F00F6C095 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		44E6AA6B2040FE8F00F6C095 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		44E6AA6E2040FEFB00F6C095 /* FBAndTwitterShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAndTwitterShare.h; sourceTree = "<group>"; };
+		44E6AA6F204100F400F6C095 /* FBAndTwitterShareCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAndTwitterShareCommon.h; sourceTree = "<group>"; };
+		44E6AA7720410E5600F6C095 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		44E6AA7820410E5600F6C095 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		44E6AA7A20410E8400F6C095 /* TestShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestShareViewController.h; sourceTree = "<group>"; };
+		44E6AA7B20410E8400F6C095 /* TestShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestShareViewController.m; sourceTree = "<group>"; };
+		44E6AA80204114CB00F6C095 /* TWColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWColor.h; sourceTree = "<group>"; };
+		44E6AA862041394500F6C095 /* ShareListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareListModel.m; sourceTree = "<group>"; };
+		44E6AA872041394500F6C095 /* ShareListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareListModel.h; sourceTree = "<group>"; };
+		58233E9D802E5D1DDB36DAB0 /* Pods_FaceBookAndTwitterShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceBookAndTwitterShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD30E014C3C8046ECC5BACA /* Pods-FaceBookAndTwitterShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookAndTwitterShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookAndTwitterShare/Pods-FaceBookAndTwitterShare.debug.xcconfig"; sourceTree = "<group>"; };
+		F8DA1C2A02279CC230A0EFA1 /* Pods-FaceBookAndTwitterShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookAndTwitterShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookAndTwitterShare/Pods-FaceBookAndTwitterShare.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		442520102040510D000FA44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B5782FC1D4CE1F1B03244A /* Pods_FaceBookAndTwitterShare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		442520282040510D000FA44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4425200A2040510D000FA44C = {
+			isa = PBXGroup;
+			children = (
+				442520152040510D000FA44C /* FaceBookAndTwitterShare */,
+				4425202E2040510D000FA44C /* FaceBookAndTwitterShareUITests */,
+				442520142040510D000FA44C /* Products */,
+				B90E96A1978001BE13C4B6A8 /* Pods */,
+				BD2999F4BAFB9B9A14C466B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		442520142040510D000FA44C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				442520132040510D000FA44C /* FaceBookAndTwitterShare.app */,
+				4425202B2040510D000FA44C /* FaceBookAndTwitterShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		442520152040510D000FA44C /* FaceBookAndTwitterShare */ = {
+			isa = PBXGroup;
+			children = (
+				4425203E20405517000FA44C /* Base */,
+				44E6AA7D204113A900F6C095 /* category */,
+				44E6AA6D2040FEB900F6C095 /* Resource */,
+				4425203F20405535000FA44C /* Share */,
+				44E6AA872041394500F6C095 /* ShareListModel.h */,
+				44E6AA862041394500F6C095 /* ShareListModel.m */,
+				442520162040510D000FA44C /* AppDelegate.h */,
+				442520172040510D000FA44C /* AppDelegate.m */,
+				44252058204060DC000FA44C /* AppDelegate+SharePlatform.h */,
+				44252059204060DC000FA44C /* AppDelegate+SharePlatform.m */,
+				44E6AA7A20410E8400F6C095 /* TestShareViewController.h */,
+				44E6AA7B20410E8400F6C095 /* TestShareViewController.m */,
+			);
+			path = FaceBookAndTwitterShare;
+			sourceTree = "<group>";
+		};
+		4425202E2040510D000FA44C /* FaceBookAndTwitterShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4425202F2040510D000FA44C /* FaceBookAndTwitterShareUITests.m */,
+				442520312040510D000FA44C /* Info.plist */,
+			);
+			path = FaceBookAndTwitterShareUITests;
+			sourceTree = "<group>";
+		};
+		4425203E20405517000FA44C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4425205520405564000FA44C /* BaseModel.h */,
+				4425205620405564000FA44C /* BaseModel.m */,
+				44E6AA6A2040FE8F00F6C095 /* BaseView.h */,
+				44E6AA6B2040FE8F00F6C095 /* BaseView.m */,
+				44E6AA7720410E5600F6C095 /* BaseViewController.h */,
+				44E6AA7820410E5600F6C095 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4425203F20405535000FA44C /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				4425204020405541000FA44C /* ShareManager */,
+				4425205220405541000FA44C /* ShareTool */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		4425204020405541000FA44C /* ShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				4425204120405541000FA44C /* DeaultType */,
+				4425204420405541000FA44C /* Manager */,
+				4425204920405541000FA44C /* PlatForm */,
+				4425204E20405541000FA44C /* ShareHousePlateFormType.h */,
+				4425204F20405541000FA44C /* ShareModel */,
+			);
+			path = ShareManager;
+			sourceTree = "<group>";
+		};
+		4425204120405541000FA44C /* DeaultType */ = {
+			isa = PBXGroup;
+			children = (
+				4425204220405541000FA44C /* ShareDefaultPlatForms.h */,
+				4425204320405541000FA44C /* ShareDefaultPlatForms.m */,
+			);
+			path = DeaultType;
+			sourceTree = "<group>";
+		};
+		4425204420405541000FA44C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4425204520405541000FA44C /* ShareHouseManager.h */,
+				4425204620405541000FA44C /* ShareHouseManager.m */,
+				4425204720405541000FA44C /* ShareManagerImprovePlateForm.h */,
+				4425204820405541000FA44C /* ShareManagerImprovePlateForm.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4425204920405541000FA44C /* PlatForm */ = {
+			isa = PBXGroup;
+			children = (
+				4425204A20405541000FA44C /* SharePopView.h */,
+				4425204B20405541000FA44C /* SharePopView.m */,
+				4425204C20405541000FA44C /* TWTwitterShareViewController.h */,
+				4425204D20405541000FA44C /* TWTwitterShareViewController.m */,
+			);
+			path = PlatForm;
+			sourceTree = "<group>";
+		};
+		4425204F20405541000FA44C /* ShareModel */ = {
+			isa = PBXGroup;
+			children = (
+				4425205020405541000FA44C /* SharePicModel.h */,
+				4425205120405541000FA44C /* SharePicModel.m */,
+			);
+			path = ShareModel;
+			sourceTree = "<group>";
+		};
+		4425205220405541000FA44C /* ShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				4425205320405541000FA44C /* ShareTool.h */,
+				4425205420405541000FA44C /* ShareTool.m */,
+			);
+			path = ShareTool;
+			sourceTree = "<group>";
+		};
+		44E6AA6D2040FEB900F6C095 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4425201F2040510D000FA44C /* Assets.xcassets */,
+				442520212040510D000FA44C /* LaunchScreen.storyboard */,
+				442520242040510D000FA44C /* Info.plist */,
+				442520252040510D000FA44C /* main.m */,
+				44E6AA6E2040FEFB00F6C095 /* FBAndTwitterShare.h */,
+				44E6AA6F204100F400F6C095 /* FBAndTwitterShareCommon.h */,
+				44E6AA80204114CB00F6C095 /* TWColor.h */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		44E6AA7D204113A900F6C095 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				448E0F632045513300707118 /* UIColor+Util.h */,
+				448E0F642045513300707118 /* UIColor+Util.m */,
+				448E0F66204552C200707118 /* UIView+MJ.h */,
+				448E0F67204552C200707118 /* UIView+MJ.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		B90E96A1978001BE13C4B6A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD30E014C3C8046ECC5BACA /* Pods-FaceBookAndTwitterShare.debug.xcconfig */,
+				F8DA1C2A02279CC230A0EFA1 /* Pods-FaceBookAndTwitterShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD2999F4BAFB9B9A14C466B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58233E9D802E5D1DDB36DAB0 /* Pods_FaceBookAndTwitterShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		442520122040510D000FA44C /* FaceBookAndTwitterShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442520342040510D000FA44C /* Build configuration list for PBXNativeTarget "FaceBookAndTwitterShare" */;
+			buildPhases = (
+				33304E2A462D22CC2EDD5DDA /* [CP] Check Pods Manifest.lock */,
+				4425200F2040510D000FA44C /* Sources */,
+				442520102040510D000FA44C /* Frameworks */,
+				442520112040510D000FA44C /* Resources */,
+				9846B279752089FD1C6BA8B1 /* [CP] Embed Pods Frameworks */,
+				9A4455ED887B744ABE2AD47A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBookAndTwitterShare;
+			productName = FaceBookAndTwitterShare;
+			productReference = 442520132040510D000FA44C /* FaceBookAndTwitterShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4425202A2040510D000FA44C /* FaceBookAndTwitterShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442520372040510D000FA44C /* Build configuration list for PBXNativeTarget "FaceBookAndTwitterShareUITests" */;
+			buildPhases = (
+				442520272040510D000FA44C /* Sources */,
+				442520282040510D000FA44C /* Frameworks */,
+				442520292040510D000FA44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4425202D2040510D000FA44C /* PBXTargetDependency */,
+			);
+			name = FaceBookAndTwitterShareUITests;
+			productName = FaceBookAndTwitterShareUITests;
+			productReference = 4425202B2040510D000FA44C /* FaceBookAndTwitterShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4425200B2040510D000FA44C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "习武";
+				TargetAttributes = {
+					442520122040510D000FA44C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					4425202A2040510D000FA44C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 442520122040510D000FA44C;
+					};
+				};
+			};
+			buildConfigurationList = 4425200E2040510D000FA44C /* Build configuration list for PBXProject "FaceBookAndTwitterShare" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4425200A2040510D000FA44C;
+			productRefGroup = 442520142040510D000FA44C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				442520122040510D000FA44C /* FaceBookAndTwitterShare */,
+				4425202A2040510D000FA44C /* FaceBookAndTwitterShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		442520112040510D000FA44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442520232040510D000FA44C /* LaunchScreen.storyboard in Resources */,
+				442520202040510D000FA44C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		442520292040510D000FA44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33304E2A462D22CC2EDD5DDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceBookAndTwitterShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9846B279752089FD1C6BA8B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookAndTwitterShare/Pods-FaceBookAndTwitterShare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookAndTwitterShare/Pods-FaceBookAndTwitterShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4455ED887B744ABE2AD47A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookAndTwitterShare/Pods-FaceBookAndTwitterShare-resources.sh",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookAndTwitterShare/Pods-FaceBookAndTwitterShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4425200F2040510D000FA44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E6AA7620410E1000F6C095 /* ShareTool.m in Sources */,
+				44E6AA7520410E0700F6C095 /* SharePicModel.m in Sources */,
+				44E6AA7420410E0000F6C095 /* TWTwitterShareViewController.m in Sources */,
+				44E6AA7320410DFA00F6C095 /* SharePopView.m in Sources */,
+				44E6AA7220410DF500F6C095 /* ShareManagerImprovePlateForm.m in Sources */,
+				44E6AA7920410E5600F6C095 /* BaseViewController.m in Sources */,
+				44E6AA7120410DF000F6C095 /* ShareHouseManager.m in Sources */,
+				44E6AA7020410DE500F6C095 /* ShareDefaultPlatForms.m in Sources */,
+				4425205A204060DC000FA44C /* AppDelegate+SharePlatform.m in Sources */,
+				442520262040510D000FA44C /* main.m in Sources */,
+				4425205720405564000FA44C /* BaseModel.m in Sources */,
+				448E0F68204552C200707118 /* UIView+MJ.m in Sources */,
+				442520182040510D000FA44C /* AppDelegate.m in Sources */,
+				44E6AA7C20410E8400F6C095 /* TestShareViewController.m in Sources */,
+				44E6AA6C2040FE8F00F6C095 /* BaseView.m in Sources */,
+				44E6AA882041394600F6C095 /* ShareListModel.m in Sources */,
+				448E0F652045513300707118 /* UIColor+Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		442520272040510D000FA44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442520302040510D000FA44C /* FaceBookAndTwitterShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4425202D2040510D000FA44C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 442520122040510D000FA44C /* FaceBookAndTwitterShare */;
+			targetProxy = 4425202C2040510D000FA44C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		442520212040510D000FA44C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				442520222040510D000FA44C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		442520322040510D000FA44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		442520332040510D000FA44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		442520352040510D000FA44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD30E014C3C8046ECC5BACA /* Pods-FaceBookAndTwitterShare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RA5LSHPUJ;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FaceBookAndTwitterShare/Resource/FBAndTwitterShare.h";
+				INFOPLIST_FILE = "$(SRCROOT)/FaceBookAndTwitterShare/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiwu.FaceBookAndTwitterShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		442520362040510D000FA44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8DA1C2A02279CC230A0EFA1 /* Pods-FaceBookAndTwitterShare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RA5LSHPUJ;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FaceBookAndTwitterShare/Resource/FBAndTwitterShare.h";
+				INFOPLIST_FILE = "$(SRCROOT)/FaceBookAndTwitterShare/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiwu.FaceBookAndTwitterShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		442520382040510D000FA44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RA5LSHPUJ;
+				INFOPLIST_FILE = FaceBookAndTwitterShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiwu.FaceBookAndTwitterShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceBookAndTwitterShare;
+			};
+			name = Debug;
+		};
+		442520392040510D000FA44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RA5LSHPUJ;
+				INFOPLIST_FILE = FaceBookAndTwitterShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiwu.FaceBookAndTwitterShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceBookAndTwitterShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4425200E2040510D000FA44C /* Build configuration list for PBXProject "FaceBookAndTwitterShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				442520322040510D000FA44C /* Debug */,
+				442520332040510D000FA44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		442520342040510D000FA44C /* Build configuration list for PBXNativeTarget "FaceBookAndTwitterShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				442520352040510D000FA44C /* Debug */,
+				442520362040510D000FA44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		442520372040510D000FA44C /* Build configuration list for PBXNativeTarget "FaceBookAndTwitterShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				442520382040510D000FA44C /* Debug */,
+				442520392040510D000FA44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4425200B2040510D000FA44C /* Project object */;
+}

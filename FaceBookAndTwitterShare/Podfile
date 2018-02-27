@@ -1,0 +1,10 @@
+#platform :ios, '8.0'
+use_frameworks!
+target 'FaceBookAndTwitterShare' do
+pod 'ShareSDK3'
+pod 'MOBFoundation'
+pod 'ShareSDK3/ShareSDKExtension'
+pod 'FBSDKLoginKit', '~> 4.30.0'
+pod 'FBSDKCoreKit', '~> 4.30.0'
+pod 'FBSDKShareKit', '~> 4.30.0'
+end

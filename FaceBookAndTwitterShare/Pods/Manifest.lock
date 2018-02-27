@@ -1,0 +1,41 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.30.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.30.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.30.0):
+    - FBSDKCoreKit (~> 4.30.0)
+  - MOBFoundation (3.1.1)
+  - ShareSDK3 (4.0.4):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 4.0.4)
+  - ShareSDK3/ShareSDK (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKExtension (4.0.4):
+    - MOBFoundation
+
+DEPENDENCIES:
+  - FBSDKCoreKit (~> 4.30.0)
+  - FBSDKLoginKit (~> 4.30.0)
+  - FBSDKShareKit (~> 4.30.0)
+  - MOBFoundation
+  - ShareSDK3
+  - ShareSDK3/ShareSDKExtension
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: 7c4bba2877781a131ab5d54c0a78c405d4307b62
+  FBSDKLoginKit: fe7a7e82373dc5daad92e1623219e86224ab1fb1
+  FBSDKShareKit: a9427574b51bde4f437262c3f118c4ccfddeef6c
+  MOBFoundation: 981288b6bdff2e1a97ef05db6fceff982306a385
+  ShareSDK3: 75b57bab0cbe3119e281c7668eaad9d48adf3fde
+
+PODFILE CHECKSUM: e7198e3a17fa83dd98da29f7538e647cac14f9db
+
+COCOAPODS: 1.4.0.beta.2

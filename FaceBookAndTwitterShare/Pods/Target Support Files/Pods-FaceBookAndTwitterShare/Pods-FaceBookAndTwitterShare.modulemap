@@ -1,0 +1,6 @@
+framework module Pods_FaceBookAndTwitterShare {
+  umbrella header "Pods-FaceBookAndTwitterShare-umbrella.h"
+
+  export *
+  module * { export * }
+}
