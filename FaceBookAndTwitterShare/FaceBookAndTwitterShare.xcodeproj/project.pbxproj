@@ -26,7 +26,6 @@
 		44E6AA7620410E1000F6C095 /* ShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425205420405541000FA44C /* ShareTool.m */; };
 		44E6AA7920410E5600F6C095 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E6AA7820410E5600F6C095 /* BaseViewController.m */; };
 		44E6AA7C20410E8400F6C095 /* TestShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E6AA7B20410E8400F6C095 /* TestShareViewController.m */; };
-		44E6AA882041394600F6C095 /* ShareListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E6AA862041394500F6C095 /* ShareListModel.m */; };
 		D9B5782FC1D4CE1F1B03244A /* Pods_FaceBookAndTwitterShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58233E9D802E5D1DDB36DAB0 /* Pods_FaceBookAndTwitterShare.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,8 +82,6 @@
 		44E6AA7A20410E8400F6C095 /* TestShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestShareViewController.h; sourceTree = "<group>"; };
 		44E6AA7B20410E8400F6C095 /* TestShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestShareViewController.m; sourceTree = "<group>"; };
 		44E6AA80204114CB00F6C095 /* TWColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWColor.h; sourceTree = "<group>"; };
-		44E6AA862041394500F6C095 /* ShareListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareListModel.m; sourceTree = "<group>"; };
-		44E6AA872041394500F6C095 /* ShareListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareListModel.h; sourceTree = "<group>"; };
 		58233E9D802E5D1DDB36DAB0 /* Pods_FaceBookAndTwitterShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceBookAndTwitterShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD30E014C3C8046ECC5BACA /* Pods-FaceBookAndTwitterShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookAndTwitterShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookAndTwitterShare/Pods-FaceBookAndTwitterShare.debug.xcconfig"; sourceTree = "<group>"; };
 		F8DA1C2A02279CC230A0EFA1 /* Pods-FaceBookAndTwitterShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookAndTwitterShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookAndTwitterShare/Pods-FaceBookAndTwitterShare.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,8 +133,6 @@
 				44E6AA7D204113A900F6C095 /* category */,
 				44E6AA6D2040FEB900F6C095 /* Resource */,
 				4425203F20405535000FA44C /* Share */,
-				44E6AA872041394500F6C095 /* ShareListModel.h */,
-				44E6AA862041394500F6C095 /* ShareListModel.m */,
 				442520162040510D000FA44C /* AppDelegate.h */,
 				442520172040510D000FA44C /* AppDelegate.m */,
 				44252058204060DC000FA44C /* AppDelegate+SharePlatform.h */,
@@ -464,7 +459,6 @@
 				442520182040510D000FA44C /* AppDelegate.m in Sources */,
 				44E6AA7C20410E8400F6C095 /* TestShareViewController.m in Sources */,
 				44E6AA6C2040FE8F00F6C095 /* BaseView.m in Sources */,
-				44E6AA882041394600F6C095 /* ShareListModel.m in Sources */,
 				448E0F652045513300707118 /* UIColor+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
