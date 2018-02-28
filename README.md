@@ -1,4 +1,4 @@
-# xiwu.github.io
+# 国外主流分享的应用iOS
 # 功能介绍
 由于没有找到完美要求的国外社交app的分享，这里就自己做了一个项目。
 主要是关于line,facebook及twittr的集成分享，非系统分享，使用的是自定义界面。
@@ -21,3 +21,5 @@ SDK集成:
 
 # 其他
 twitter如果想分享到twitter应用，可以下载twitter3.0+的SDK集成，但是只支持iOS 9+，这里需要特别注意，后续会补上。
+
+github地址:https://github.com/xiwuxisheng/xiwu.github.io
