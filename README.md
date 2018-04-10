@@ -20,6 +20,6 @@ SDK集成:
 3.twitter这里需要注意由于ios11+封闭了社会化内置分享，所以这里处理了ios11以下使用社会化分享（分享图文），ios11以则使用触屏网页分享（分享文本）
 
 # 其他
-twitter如果想分享到twitter应用，可以下载twitter3.0+的SDK集成，但是只支持iOS 9+，这里需要特别注意，后续会补上。
+twitter如果想分享到twitter应用，可以下载TwitterKit3.0+的SDK集成，但是只支持iOS 9+，这里需要特别注意，后续会补上。
 
 github地址:https://github.com/xiwuxisheng/xiwu.github.io
