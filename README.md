@@ -22,4 +22,4 @@ SDK集成:
 # 其他
 twitter如果想分享到twitter应用，可以下载TwitterKit3.0+的SDK集成，但是只支持iOS 9+，这里需要特别注意，后续会补上。
 
-github地址:https://github.com/xiwuxisheng/xiwu.github.io
+github地址:https://github.com/xiwuxisheng/Share
